@@ -1,0 +1,186 @@
+:root{
+    --primary-text-color:#183b56;
+    --secondary-text-color:#577592;
+    --accent-color-dark:#1d69a3;
+    --padding-inline-section:20px
+}
+.btn{
+    color: white !important;
+}
+.btn-primary{
+    background-color: #1d69a3 !important;
+}
+body{
+    font-family: 'Poppins','sans-serif';
+    color:var(--primary-text-color);
+    overflow-x: hidden;
+    background-color: #E0E0E2;
+}
+
+
+.footer{
+    background-color: var(--accent-color-dark);
+    color: white;
+}
+
+h1{
+    font-size: 3rem;
+    font-family: 'Roboto';
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+
+p{
+    font-family:'Roboto','sans-serif';
+    font-size:1.25rem;
+
+}
+.container{
+    max-width: 1180;
+    margin-inline:auto;
+    padding-inline:var(--padding-inline-section)
+}
+
+
+.flex
+{
+    display:flex;
+    align-items: center;
+}
+header
+{
+    padding:50px var(--padding-inline-section) 0;
+}
+
+.header-section{
+    justify-content:center;
+    gap:50px;
+}
+
+.header-left
+{
+    max-width:40vw;
+}
+
+.header-right img
+{
+    width:600px;
+    animation : fadeIn 10s;
+}
+
+@keyframes fadeIn {
+    0%{opacity:0;}
+    100%{opacity:1;}
+}
+
+.navbar-brand{
+    color: white;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+.navbar
+{
+    font-family: "Poppins";
+    background-color: var(--accent-color-dark);
+}
+
+/* .features-section
+{
+    padding: 60px var(--padding-inline-section) 0;
+} */
+
+.row
+{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.card-title 
+{
+    text-align: center;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.feature-section
+{
+    padding-top: 8%;
+}
+
+.card:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  }
+
+  .big-row
+  {
+    padding-top:8% ;
+     padding-left: 20%;
+  }
+
+  .space-button
+  {
+    margin-right: 10px;
+  }
+
+  .modal
+  {
+    font-family: "Roboto";
+    font-weight: bold;
+  }
+ 
+  
+ 
+
+
+
+  /* <section class="features-section">
+        <div class="container">
+            <div class="features-header">
+                <h2>Features provided by our site</h2>
+            </div>
+            <div class="features-area flex">
+                <div class="features-card ">
+                    <img src="" alt="Feature1">
+                    <h3>Feature1</h3>
+                    <p>abc............</p>
+                    <a href="" class="secondary-button"></a>
+                </div>
+            
+
+            
+                <div class="features-card ">
+                    <img src="" alt="Feature2">
+                    <h3>Feature2</h3>
+                    <p>abc............</p>
+                    <a href="" class="secondary-button"></a>
+                </div>
+            
+
+          
+                <div class="features-card ">
+                    <img src="" alt="Feature3">
+                    <h3>Feature3</h3>
+                    <p>abc............</p>
+                    <a href="" class="secondary-button"></a>
+                </div>
+            
+
+            
+                <div class="features-card ">
+                    <img src="" alt="Feature4">
+                    <h3>Feature4</h3>
+                    <p>abc............</p>
+                    <a href="" class="secondary-button"></a>
+                
+            </div>
+            </div>
+        </div> */

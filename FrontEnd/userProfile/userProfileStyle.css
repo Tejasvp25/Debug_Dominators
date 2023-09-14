@@ -1,0 +1,32 @@
+body {
+  background-color: #e0e0e2 !important;
+}
+
+.card-header {
+  background-color: #1d69a3 !important;
+  color: white;
+}
+
+.card {
+  box-shadow: 4px 4px rgba(170, 170, 171, 0.1) !important;
+}
+
+.Image {
+  padding: 2rem;
+}
+
+.profile {
+}
+
+.firstname {
+  width: 10rem;
+}
+
+.lastname {
+}
+
+.btn-primary {
+  background-color: #1d69a3 !important;
+  border-color: #1d69a3 !important;
+  color: white !important;
+}
