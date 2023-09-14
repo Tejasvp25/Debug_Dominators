@@ -1,0 +1,36 @@
+
+left to right direction
+actor Developer as Dev
+actor Tester as Test
+actor Manager as Mgr
+
+rectangle "Bug Tracking System" {
+  usecase "Create Bug" as Create
+  usecase "Assign Bug" as Assign
+  usecase "Resolve Bug" as Resolve
+  usecase "Close Bug" as Close
+  usecase "View Bug" as View
+  usecase "Edit Bug" as Edit
+  usecase "Delete Bug" as Delete
+  usecase "Reopen Bug" as Reopen
+  usecase "Search Bug" as Search
+  usecase "Generate Report" as Report
+
+  Dev --> Create
+  Dev --> Assign
+  Test --> Assign
+  Test --> Resolve
+  Dev --> Close
+  Mgr --> Close
+  Dev --> View
+  Dev --> Edit
+  Dev --> Delete
+  Dev --> Reopen
+  Dev --> Search
+  Mgr --> View
+  Mgr --> Edit
+  Mgr --> Delete
+  Mgr --> Reopen
+  Mgr --> Search
+  Mgr --> Report
+}
