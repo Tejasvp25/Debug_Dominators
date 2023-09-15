@@ -34,7 +34,6 @@ public class ProjectServiceImpl implements IProjectService {
      */
     @Override
     public void addProject(Project project) throws SQLException, PermissionException, LimitExceedException, UserNotFoundException {
-        System.out.println(project.getProjectManagerId());
     	User user = userDao.getUserById(project.getProjectManagerId());
         if (user == null) {
             throw new UserNotFoundException();

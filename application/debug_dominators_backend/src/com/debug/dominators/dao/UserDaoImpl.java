@@ -79,15 +79,6 @@ public class UserDaoImpl implements IUserDao {
 
 	@Override
 	public User getUserById(int id) throws SQLException {
-		try {
-			System.out.println(DatabaseUtils.getConnection());
-		} catch (ClassNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 		String selectQuery = "SELECT * FROM User WHERE user_id = ?";
 		PreparedStatement preparedStatement = con.prepareStatement(selectQuery);
 		preparedStatement.setInt(1, id);
