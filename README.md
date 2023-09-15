@@ -5,3 +5,11 @@
 - Add JDBC Connector for MySQL in classpath
 - Import/Copy Command from "Bug_tracking_systen (4).sql" file in debug_dominators_backend folder
 - Run the UIMain.java class
+
+## Frontend Execution
+
+- Open developerDashboard/developer.html
+- Open homePage/FrontPage.html
+- Open managerDashboard/manager.html
+- Open testerDashboard/Tester.html
+- Open userProfile/userProfile.html
